@@ -28,3 +28,7 @@ def main():
     config = read_config()
     db = get_db(config["db_url"])
     analyse(db)
+
+
+if __name__ == "__main__":
+    main()
